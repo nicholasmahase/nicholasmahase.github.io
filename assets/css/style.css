@@ -32,7 +32,9 @@ header {
     top: 11px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
+.nametitle {
+    color: #fff;
+}
 .navigation {
     width: 70%;
     float: left;
