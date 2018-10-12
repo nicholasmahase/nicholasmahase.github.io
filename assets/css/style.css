@@ -102,7 +102,9 @@ img {
     width: 100%;
     padding: 10px;
 }
-
+textarea {
+    width: 100%;
+}
 .textcomments {
     width: 100%;
 
