@@ -172,6 +172,7 @@ footer {
     .container {
         width: 100%;
     }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -198,6 +199,7 @@ footer {
     }
     .content {
         width: 600px;
+        height: 100%;
     }
 
     textarea.text_box {
@@ -216,6 +218,8 @@ footer {
     .container {
         width: 100%;
     }
+    .portfolio-links { width: 100%;}
+    
 }
 
 @media only screen and (max-width: 640px) {
@@ -242,7 +246,10 @@ footer {
     .navigation {
         top: 16px;
     }
-
+    .content {
+        width: 500px;
+        height: 100%;
+    }
     body {
         width: 100%;
     }
@@ -259,4 +266,66 @@ footer {
     .Nav3 {
         width: 72px;
     }
+    .portfolio-links { width: 100%;}
+    h3 {
+        margin: auto;
+        width: 100%;
+        top: 265px;
+        font-size: 24px;
+    }
+    img { width: 100%;}
+    li { float: none;}
+}
+@media only screen and (max-width: 420px) {
+
+    h1 {
+        position: relative;
+        bottom: 18px;
+    }
+
+    header {
+        height: 49px;
+    }
+
+    .Name  {
+        left: 2%;
+        height: 15px;
+        font-size: 18px;
+        position: relative;
+        top: 5px;
+        width: 26%;
+        padding: 20px;
+    }
+
+    .navigation {
+        top: 16px;
+    }
+    .content {
+        width: 328px;
+        height: 100%;
+    }
+    body {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+    .Nav1 {
+        width: 72px;
+    }
+    .Nav2 {
+        width: 72px;
+    }
+    .Nav3 {
+        width: 72px;
+    }
+    .portfolio-links { width: 100%;}
+    h3 {
+        margin: auto;
+        width: 100%;
+        top: 185px;
+        font-size: 24px;
+    }
+    li { float: none;}
 }
